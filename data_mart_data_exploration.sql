@@ -1,6 +1,6 @@
 
 -- Data exploration
--- which week numbers are missing from the table
+-- which week numbers are missing from the table?
 
 DROP TABLE seq100;
 CREATE TABLE seq100(x INT AUTO_INCREMENT PRIMARY KEY);
@@ -18,24 +18,24 @@ SELECT DISTINCT x FROM seq52 s
 WHERE x NOT IN(SELECT DISTINCT week_number
 FROM clean_weekly_sales);
 
--- How many total transactions were there for each year in the dataset
+-- How many total transactions were there for each year in the dataset?
 
 SELECT SUM(transactions) AS total_transactions, calender_year FROM clean_weekly_sales
 GROUP BY calender_year;
 
--- What are the total sales for each region in the dataset
+-- What are the total sales for each region in the dataset?
 
 SELECT region, SUM(sales) AS total_sales
 FROM clean_weekly_sales
 GROUP BY region;
 
--- What is the total count of transactions for each platform
+-- What is the total count of transactions for each platform?
 
 SELECT platform, COUNT(transactions) AS total_transactions
 FROM clean_weekly_sales
 GROUP BY platform;
 
--- What is the percentage of sale for Retail and for Shopify 
+-- What is the percentage of sale for Retail and for Shopify?
 	
     WITH percentage AS ( SELECT 
 month_number, platform, sum(sales) AS monthly_sales

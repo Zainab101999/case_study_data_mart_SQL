@@ -29,5 +29,12 @@ F | Families |
 Generate a new avg_transaction column as the sales value divided by transactions rounded to 2 decimal places for each record.
 
 STEP 3
-Data exploration of the clean_weekly_sales table.
+Data exploration of the clean_weekly_sales table. Used SQL queries to answer the questions given below:
 
+1) Which week numbers are missing from the table?
+2) How many total transactions were there for each year in the dataset?
+3) What are the total sales for each region in the dataset?
+4) What is the total count of transactions for each platform?
+5) What is the percentage of sale for Retail and for Shopify?
+6) What is the percentage of sales by demographic for each year in the data set?
+7) Which age_band and demographic values contribute the most to Retail Sales?

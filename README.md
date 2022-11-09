@@ -1,6 +1,13 @@
 # case_study_data_mart_SQL
 INTRODUCTION:
-Data Mart is the latest venture of XYZ Ltd and they want help in analyzing the sales and performance of their venture.
+XYZ Ltd's newest endeavour, Data Mart, is looking for assistance in analysing its sales and performance. Use the given data to answer the following questions:
+1) Which week numbers from the table are missing? 
+2) How many total transactions were present in the dataset for each year? 
+3) What are the dataset's total sales by region? 
+4) How many transactions were made on each platform overall? 
+5) What is the Retail and Shopify sales percentage? 
+6) What is the demographic breakdown of sales for each year in the data set? 
+7) Which age band and demographic factors influence retail sales the most?
 
 STEP 1
 Creating a weekly_sales table.
@@ -30,10 +37,10 @@ Generating a new avg_transaction column as the sales value divided by transactio
 STEP 3
 Data exploration of the clean_weekly_sales table. Using SQL queries to answer the questions given below:
 
-1) Which week numbers are missing from the table?
-2) How many total transactions were there for each year in the dataset?
-3) What are the total sales for each region in the dataset?
-4) What is the total count of transactions for each platform?
-5) What is the percentage of sale for Retail and for Shopify?
-6) What is the percentage of sales by demographic for each year in the data set?
-7) Which age_band and demographic values contribute the most to Retail Sales?
+1) Which week numbers from the table are missing? 
+2) How many total transactions were present in the dataset for each year? 
+3) What are the dataset's total sales by region? 
+4) How many transactions were made on each platform overall? 
+5) What is the Retail and Shopify sales percentage? 
+6) What is the demographic breakdown of sales for each year in the data set? 
+7) Which age band and demographic factors influence retail sales the most?

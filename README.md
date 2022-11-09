@@ -5,7 +5,7 @@ XYZ Ltd's newest endeavour, Data Mart, is looking for assistance in analysing it
 2) How many total transactions were present in the dataset for each year? 
 3) What are the dataset's total sales by region? 
 4) How many transactions were made on each platform overall? 
-5) What is the Retail and Shopify sales percentage? 
+5) What is the Retail and Shopify sales percentage for each month? 
 6) What is the demographic breakdown of sales for each year in the data set? 
 7) Which age band and demographic factors influence retail sales the most?
 
@@ -41,6 +41,6 @@ Data exploration of the clean_weekly_sales table. Using SQL queries to answer th
 2) How many total transactions were present in the dataset for each year? 
 3) What are the dataset's total sales by region? 
 4) How many transactions were made on each platform overall? 
-5) What is the Retail and Shopify sales percentage? 
+5) What is the Retail and Shopify sales percentage for each month? 
 6) What is the demographic breakdown of sales for each year in the data set? 
 7) Which age band and demographic factors influence retail sales the most?

@@ -13,7 +13,7 @@ STEP 1
 Creating a weekly_sales table.
 
 STEP 2
-Data cleansing of the weekly_sales table.
+Data cleansing of the weekly_sales_table.
 
 Data Cleansing Steps:
 
@@ -27,15 +27,15 @@ Adding a week_number as the second column for each week_date value, for example 
 4) Adding a new column called age_band after the original segment column. Segregated each customer into young aduls, middle age, retirees and unknown.
 
 5) Adding a new demographic column using the following mapping for the first letter in the segment values:
-segment | demographic |
+
 C | Couples |
 F | Families |
  
-6) Ensuring all null string values with an "unknown" string value in the original segment column as well as the new age_band and demographic columns
+6) Ensuring all null string values are replaced with an "unknown" string value in the original segment column as well as the new age_band and demographic columns.
 Generating a new avg_transaction column as the sales value divided by transactions rounded to 2 decimal places for each record.
 
 STEP 3
-Data exploration of the clean_weekly_sales table. Using SQL queries to answer the questions given below:
+Data analysis of the clean_weekly_sales table. Using SQL queries to answer the questions given below:
 
 1) Which week numbers from the table are missing? 
 2) How many total transactions were present in the dataset for each year? 

@@ -1,5 +1,5 @@
 
--- Data exploration
+-- Data analysis
 -- which week numbers are missing from the table?
 
 DROP TABLE seq100;

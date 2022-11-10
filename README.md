@@ -1,4 +1,5 @@
 # case_study_data_mart_SQL
+
 INTRODUCTION:
 XYZ Ltd's newest endeavour, Data Mart, is looking for assistance in analysing its sales and performance. Use the given data to answer the following questions:
 1) Which week numbers from the table are missing? 
